@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Roboto;
+  background-image: url("../images/backcover.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+  
+}
+.main-div {
+  margin: auto;
+  max-width: 80%;
+}
+/*----- nav bar ------  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 17vh;
+}
+/* ------ nav bar list items -------- */
+.nav-items {
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(62, 62, 158);
+  
+  font-family: Poppins;
+}
+nav img{
+  width: 150px;
+  margin-left:-50px;
+ 
+}
+/* ----- nav search btn ----- */
+.signin-btn {
+  background: linear-gradient(180deg, #965cf2, #ff8adc);
+  border-radius: 20px;
+  border: none;
+  padding: 5px 20px;
+  margin-right: 4rem;
+  color: white;
+}
+/*------into section ------ */
+.intro-section {
+  display: flex;
+  justify-content: center;
+}
+/* left down part  */
+.left-section{
+  margin-top: 100px;
+}
+.left-section h1 {
+  display: block;
+  font-size: 80px;
+  color: #3e4794;
+  white-space: nowrap;
+  font-weight: 900;
+
+}
+.left-section h4 {
+  font-size: 15px;
+  color: rgb(136, 136, 212);
+  line-height: 30px;
+  margin-top: 30px;
+}
+.learn-more-btn {
+  background: linear-gradient(180deg, #965cf2, #ff8adc);
+  border-radius: 40px;
+  padding: 17px 40px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 4rem;
+}
+/* ----- right down part ------ */
+.imgs-div {
+  position: relative;
+}
+.vector-img {
+  position: relative;
+  top: 30rem;
+}
+.vector-dot {
+  position: relative;
+  top: 25rem;
+  right: 3rem;
+}
+.intro-section .imgs-div img:nth-child(3) {
+  position: relative;
+  bottom: 10rem;
+}
